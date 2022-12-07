@@ -1,7 +1,47 @@
-root {
+:root {
     --primary-color: #174C4F;
-    --accent-color: #F2E0E0;
+    --accent-color: rgba(242, 224, 224);
+    --header-background: rgba(242, 224, 224, .3); 
     --body-font-family: 'Work Sans', sans-serif;   
     --heading-font-family: 'Libre Baskerville', serif;
     --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: var(--heading-font-family);
+    font-size: 60px;
+}
+
+p, body {
+    font-family: var(--body-font-family);  
+}
+
+.hero {
+    text-align: center;
+    background-color: var(--header-background);
+    margin: 50 20; 
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight:500;
+}
+
+.hero h2 {
+    font-family: var(--body-font-family);
+    font-size: 36px;
+    margin-top: 20px;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: none;
+    transition: ease-in-out
+}
+.btn-primary:hover {
+    font-weight: 800;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: none;
 }
