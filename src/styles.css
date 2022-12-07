@@ -1,0 +1,7 @@
+root {
+    --primary-color: #174C4F;
+    --accent-color: #F2E0E0;
+    --body-font-family: 'Work Sans', sans-serif;   
+    --heading-font-family: 'Libre Baskerville', serif;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
