@@ -15,6 +15,7 @@ h1 {
 
 p, body {
     font-family: var(--body-font-family);  
+    font-size: 18px;
 }
 
 .hero {
