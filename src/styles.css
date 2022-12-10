@@ -1,7 +1,7 @@
 :root {
     --primary-color: #174C4F;
-    --accent-color: rgba(242, 224, 224);
-    --header-background: rgba(242, 224, 224, .3); 
+    --accent-color: #f2e0e0;
+    --header-background: rgba(242, 224, 224, 0.3); 
     --body-font-family: 'Work Sans', sans-serif;   
     --heading-font-family: 'Libre Baskerville', serif;
     --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -16,12 +16,18 @@ h1 {
 p, body {
     font-family: var(--body-font-family);  
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .hero {
     text-align: center;
     background-color: var(--header-background);
     padding: 100px 20px;
+}
+h2 {
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+    font-weight: 600;
 }
 
 .hero p {
@@ -49,4 +55,32 @@ p, body {
     background-color:var(--accent-color);
     color: var(--primary-color);
     border: solid 1px var(--primary-color);
+}
+.btn-accent{
+    font-size: 18px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--header-background);
+    padding: 10px 20px;
+    transition: ease-in-out
+}
+.btn-accent:hover {
+    font-weight: 800;
+    cursor: pointer;
+    background-color:var(--accent-color);
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+}
+.project-description {
+    padding: 30px 60px;
+}
+.work-section{
+    padding: 0 40px 0 40px;
+}
+@media (max-width: 984px)
+{
+    .project-description{
+        padding: 0 30px;
+        text-align: center;
+    }
 }
