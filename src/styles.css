@@ -46,6 +46,8 @@ h2 {
     color: white;
     font-size: 18px;
     border: none;
+    border-radius: 5px;
+    text-decoration: none;
     padding: 15px 30px;
     transition: ease-in-out
 }
@@ -59,9 +61,11 @@ h2 {
 .btn-accent{
     font-size: 18px;
     border: 1px solid var(--primary-color);
+    border-radius: 5px;
     color: var(--primary-color);
     background-color: var(--header-background);
     padding: 10px 20px;
+    text-decoration: none;
     transition: ease-in-out
 }
 .btn-accent:hover {
@@ -77,10 +81,28 @@ h2 {
 .work-section{
     padding: 0 40px 0 40px;
 }
+.about-header{
+    padding: 50px;
+}
+.about-header h1{
+    font-size: 32px;
+}
+.about-header h2{
+    font-size:18px;
+}
+.about-header p {
+    font-size: 16px;
+}
+.about-header-content {
+    padding-top: 100px;
+}
 @media (max-width: 984px)
 {
     .project-description{
         padding: 0 30px;
+        text-align: center;
+    }
+    .about-header {
         text-align: center;
     }
 }
