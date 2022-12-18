@@ -164,7 +164,6 @@ footer .email-link:hover {
     cursor: pointer;
 }
 footer .social-links a{
-    margin: 0 20px;
     color: var(--primary-color);
     background-color: var(--header-background);
     padding: 10px 14px;
@@ -195,6 +194,17 @@ footer p {
 .content-contact {
     text-align: center;
     padding-top: 60px;
+}
+.source-link{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+    margin-bottom: 30px;
+}
+.source-link:hover {
+    font-weight: 700;
+    color: var(--primary-color);
 }
 @media (max-width: 984px)
 {
