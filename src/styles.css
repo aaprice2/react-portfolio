@@ -11,12 +11,14 @@ h1 {
     font-family: var(--heading-font-family);
     font-size: 60px;
     font-weight: 800;
+    color:var(--primary-color);
 }
 
 p, body {
     font-family: var(--body-font-family);  
     font-size: 18px;
     line-height: 1.5;
+    color: var(--primary-color);
 }
 
 .hero {
@@ -26,11 +28,45 @@ p, body {
 }
 h2 {
     font-size: 36px;
+    color: var(--primary-color);
     font-family: var(--heading-font-family);
     font-weight: 600;
 }
 img {
     box-shadow: var(--box-shadow);
+}
+nav {
+    padding: 20px 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 40px;
+}
+nav li.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.link {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+.link:hover {
+    font-weight:700;
+    color: var(--primary-color);
+}
+.logo {
+    max-height: 40px;
+    box-shadow: none;
 }
 .hero p {
     font-size: 36px;
@@ -117,5 +153,10 @@ img {
     }
     .content-header {
         text-align: center;
+    }
+    .link {
+        font-size: 14px;
+        padding-left: 10px;
+    }
     }
 }
