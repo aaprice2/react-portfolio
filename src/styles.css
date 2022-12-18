@@ -42,6 +42,9 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+a {
+    cursor: pointer;
+}
 
 nav li {
     display: inline;
@@ -64,6 +67,7 @@ nav li.active {
 .link:hover {
     font-weight:700;
     color: var(--primary-color);
+    cursor: pointer;
 }
 .logo {
     max-height: 40px;
@@ -157,6 +161,7 @@ footer .email-link{
 }
 footer .email-link:hover {
     color: var(--primary-color);
+    cursor: pointer;
 }
 footer .social-links a{
     margin: 0 20px;
@@ -169,6 +174,7 @@ footer .social-links a{
 }
 footer .social-links a:hover {
     color: white;
+    cursor: pointer;
     background: var(--primary-color);
 }
 footer .contact-box {
@@ -186,7 +192,10 @@ footer p {
     font-size: 20px;
     margin-bottom: 0;
 }
-
+.content-contact {
+    text-align: center;
+    padding-top: 60px;
+}
 @media (max-width: 984px)
 {
     .project-description{
